@@ -1,0 +1,606 @@
+/* GENERAL */
+
+@font-face {
+    font-family: "Maya Culpa";
+    src: url(polices-voyages3/maya-culpa.ttf);
+}
+
+@font-face{
+    font-family: "maya";
+    src: url(polices-voyages3/mayaecriture.ttf);
+}
+
+@font-face{
+    font-family: "jungle";
+    src: url(polices-voyages3/1942.ttf);
+}
+
+@font-face
+{
+    font-family: "etoile";
+    src: url(polices-voyages3/etoile.ttf);
+}
+
+@font-face
+{
+    font-family: "hotel";
+    src: url(polices-voyages3/hotel.ttf);
+}
+p
+{font-family: 'Grandstander', cursive;}
+
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+.body-p4
+{background-image: url(https://wallpaperset.com/w/full/0/b/6/156615.jpg);
+background-attachment: fixed;
+background-size: cover;}
+
+h4
+{font-family: "jungle";
+text-shadow: 1px 1px black;
+font-size: 20px;}
+/* HEADER */
+.dradra
+{
+    margin-top: 55px
+}
+.menu {
+    margin-top: 65px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    margin-right: 10px;
+    font-family: 'Grandstander', cursive;
+    font-size: 12px;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 2px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    border: transparent;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+}
+
+.menu ul ul {
+    position: absolute;
+    top: 31px;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu li:hover {
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.menu ul li ul a:hover 
+{
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.menu a {
+    font-size: 1.3em;
+    padding-bottom: 3px;
+}
+
+.menu li a i {
+    padding: 5px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.full-header {
+    display: flex;
+    justify-content: space-around;
+    height: 125px;
+}
+
+.logo-site {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.685);
+    margin-bottom: 250px;
+}
+
+.case-milieux {
+    width: 620px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 20px;
+}
+
+.lama {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.titre {
+    font-family: "maya";
+    color: white;
+    font-size: 90px;
+    margin: 0 15px;
+    margin-top: 10px;
+}
+
+.menu-d {
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.continent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.globe-trotter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+/* MAIN */
+.drapeau
+{
+    display: flex;
+    justify-content: center;
+}
+
+.flag
+{
+width: 300px;
+height: 198px;
+
+}
+
+.presentation
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.case {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(255, 254, 254, 0.753);
+    height: 280px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.casearrondi {
+    
+    width: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    background: #00000080;
+    color: white;
+    font-size: 15px;
+    font-family: 'Grandstander', cursive;
+    float: left;
+    text-shadow: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tracage
+{
+    margin-top: 160px;
+}
+
+
+.petittitre
+{
+    text-align: center;
+}
+
+.pres{
+    text-align: center;
+    font-size: 40px;
+    font-family: "jungle";
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+.passeportdupays
+{display: flex;
+justify-content: center;}
+
+.ecarter
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pass
+{
+    height: 70px;
+    width: 70px;
+}
+
+.histoire
+{
+    height: 70px;
+    width: 70px;
+}
+
+.casephoto
+{
+    width: 250px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    text-align: center;
+    background: #00000080;
+    color: white;
+    font-size: 15px;
+    font-family: 'Grandstander', cursive;
+    float: left;
+    text-shadow: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.carrer
+{
+    width: 250px;
+    height: 250px;
+}
+
+
+ul{
+    text-align: center;
+}
+
+.background2
+{
+    background: url(images-voyages3/decouvrir.png);
+    width: 100%;
+    height: 500px;
+}
+
+.decouv
+{   color: white;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: 800px;
+    text-align: center;
+    height: 35px;
+    width: 170px;
+    padding-top: 15px;
+    margin-top: 280px;
+    text-transform: uppercase;
+
+}
+
+.decouvrir
+{
+    display: flex;
+    justify-content: center;
+}
+
+.decouv:hover
+{color: black;
+background-color: white;}
+
+
+
+.dezoom div img {
+    width: 200px; 
+    height: auto; 
+    -webkit-transition: .3s ease-in-out; 
+    transition: .3s ease-in-out; 
+  }
+  .dezoom div:hover img:hover {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    
+  }
+
+.aligner
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+.dezoom {
+	margin: 15px 25px 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plat
+{
+    margin-left: 50px;
+}
+
+.reserver
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.reserver2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reserverunechambre
+{
+    width: 170px;
+    height: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.712);
+    color: white;
+    font-size: 15px;
+    font-family: 'hotel';
+    text-shadow: black;
+    
+}
+
+
+.reserverunechambre:hover
+{
+    transition-duration: 1s;
+    color: black;
+    font-family: 'hotel';
+    background-color: rgba(255, 255, 255, 0.795);
+    border: 2px solid black;
+}
+
+
+
+/* TABLEAU */
+td, th 
+{
+    border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+
+}
+
+th{
+    font-size: 24px;
+    text-shadow: 1px 1px black;
+    background-color: rgba(255, 127, 80, 0.075);
+}
+
+.etoile
+{
+    font-family: 'etoile';
+    font-size: 25px;
+    color: gold;
+}
+
+.hotel
+{
+    font-family: "hotel";
+    font-size: 20px;
+}
+
+table
+{background-color: rgba(0, 0, 0, 0.479);
+color: white;
+font-family: "hotel";
+font-size: 18px;
+
+}
+
+.tablo
+{display: flex;
+justify-content: center;}
+
+.tradition
+{
+    width: 1500px;
+    height: 220px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    background: #00000080;
+    color: white;
+    font-size: 15px;
+    text-shadow: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+    
+}
+
+.tratra
+{margin-bottom: 100px;}
+
+
+.trad
+{
+    float: left;
+padding: 10px;
+margin-top: 10px;
+}
+
+.traddroite
+{
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.droite
+{
+    margin-left: 7px;
+}
+.petitemarge
+{
+    margin-left: 7px;
+}
+
+IMG.logotitre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.formulaire55
+{
+    width: 1320px;
+    height: 500px;
+    border: 1.5px solid black;
+    background: white;
+    color: black;
+    font-size: 17px;
+    text-shadow: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.contact
+{
+    margin-left: 13px;
+    width: 1300px;
+    background-color: #E9ECEF;
+    height: 20px;
+    border-radius: 3px;
+    border-bottom: solid  #7193F5;
+}
+
+
+.remplir
+{
+    margin-left: 13px;
+    width: 1300px;
+    background-color: #CFE5FF;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.formu
+{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.tir
+{
+    color:#144992;
+    padding: 1px 1px;
+}
+
+.ctc
+{
+    color: #6D757D;
+}
+
+input[type="email"], input[type="text"]
+{
+    width: 900px;
+    height: 20px;
+}
+
+textarea
+{
+    width: 900px;
+    height: 100px;
+}
+
+.btn-block 
+{
+    display: block;
+    width: 100%;
+}
+
+.btn-group-lg>.btn, .btn-lg 
+{
+    padding: 10px 3px;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 1150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    
+}
+
+.btn-primary 
+{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn 
+{
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+}
+    
+.btn-primary:hover
+{
+    background-color: #276ADC;
+    transition: 0.3s ease-in-out;
+}
+
+.chulo 
+{float: right;
+margin-top: 140px;
+margin-right: 50px;}
+
